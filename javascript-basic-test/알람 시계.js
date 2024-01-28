@@ -2,7 +2,7 @@ let fs = require('fs');
 let input = fs.readFileSync('/dev/stdin').toString().split('\n');
 
 let time = Number(input[0].split(' ')[0]);
-let min = Number(input[1].split(' ')[1]);
+let min = Number(input[0].split(' ')[1]);
 
 function alarm(t, m) {
   if (m < 45) {
