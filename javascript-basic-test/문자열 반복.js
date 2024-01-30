@@ -7,7 +7,7 @@ for (let i = 1; i <= T; i++) {
   let [R, S] = input[i].split(' ');
   let newData = '';
   for (let j = 0; j <= S.length; j++) {
-    newData += S.charAt(j).repeat(R);
+    newData += S.charAt(j).repeat(R); //repeat으로 문자열 반복
   }
   console.log(newData);
 }
